@@ -8,6 +8,7 @@ import liskovsustitution.god.StandarUser as godUser
 class Liskovsustitution {
 
     fun Demo(){
+        println("== Principio L ==")
         // VIOLATION
         // Toda la funcionalidad esta en una sola llamada, lo cual rompe el principio "S"
         // No se puede evitar funcionalidad de manera facil,

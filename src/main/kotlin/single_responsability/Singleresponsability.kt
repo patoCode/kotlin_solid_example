@@ -5,6 +5,9 @@ import utils.User
 class Singleresponsability {
 
     fun Demo(){
+
+        println("== Principio S ==")
+
         val userDummy = User(1, "Ken Master", "ken.master@sfv.cc", "1234567890")
 
         // Sin aplicar el principio

@@ -1,3 +1,4 @@
+import interface_segregation.InterfaceSegregation
 import liskovsustitution.Liskovsustitution
 import open_close.Openclose
 import single_responsability.Singleresponsability
@@ -6,18 +7,20 @@ import single_responsability.Singleresponsability
 fun main(args: Array<String>) {
 
     // PRINCIPLE SINGLE RESPONSABILITY
-    // var principleS = Singleresponsability()
-    // principleS.Demo()
+    var principleS = Singleresponsability()
+    principleS.Demo()
 
     // PRINCIPLE OPEN-CLOSE
-    // var principleO = Openclose()
-    // principleO.Demo()
+    var principleO = Openclose()
+    principleO.Demo()
 
     // PRINCIPLE LISKOV-SUSTITUTION
-    // var principleL = Liskovsustitution()
-    // principleL.Demo()
+    var principleL = Liskovsustitution()
+    principleL.Demo()
 
-
+    // INTERFACE SEGREGATION
+    var principleI = InterfaceSegregation()
+    principleI.Demo()
 
 
 }

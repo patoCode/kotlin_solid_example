@@ -5,7 +5,7 @@ import utils.HeaderObject
 class Openclose {
 
     fun Demo(){
-
+        println("== Principio O ==")
         var headerForbidden = setOf("headerA", "headerB", "headerC")
         var dummyHeader = HeaderObject("headerB", "valor_B")
         var dummyHeader2 = HeaderObject("header2", "valor_h2")
